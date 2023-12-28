@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.chatroom-container{
+    display: block;
+    /* this has to changed to none after deveopment */
+}
+
+.form-username{
+    display: none;
+
+      /* this has to be removed after develeopment  */
+}
+
+.chatroom-header{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.75rem;
+    background-color: black;
+    color: white;
+
+}
+
+.messages{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e1e1e1; 
+     /* by default all show in flex start */
+     /* align-items: flex-end;     */
+     /* all the children will folow this alignment  */
+   
+}
+
+.message{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #DCF8C6;
+    width: fit-content;
+    border-radius: 6px; 
+}
+
+.sent{
+    align-self: flex-end;
+}
+/* align-items is for all the children dic inside flex container */
+/* align self is for the divs we want alignmnet shuld be applies */
